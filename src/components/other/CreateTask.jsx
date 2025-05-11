@@ -24,10 +24,14 @@ const CreateTask = () => {
             if (asignTo == elem.firstName) {
                 elem.tasks.push(newTask)
                 elem.taskCounts.newTask = elem.taskCounts.newTask + 1
+                setNewTask(elem.taskCounts.newTask)
+                console.log(elem);
+                console.log(elem.tasks);
+                console.log(elem.taskCounts);
             }
         })
         setUserData(data)
-        console.log(data);
+        // console.log(data);
 
         setTaskTitle('')
         setCategory('')
