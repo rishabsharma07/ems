@@ -15,6 +15,18 @@ const Login = ({ handleLogin }) => {
     <div className="flex h-screen w-screen items-center justify-center">
       <div className="absolute top-10 left-100 font-bold text-3xl">
         <h1 className="text-emerald-600">Employee Management System</h1>
+        <div className="p-1 text-[10px] leading-[13px] text-sm font-medium">
+          <p>For testing: </p>
+          <p>Admin: email: admin@me.com  password: 123</p>
+          <p>Employee 1: email: e1@employee.com password: 123</p>
+          <p>Employee 2: email: e2@employee.com password: 123</p>
+          <p>Employee 3: email: e3@employee.com password: 123</p>
+          <p>Employee 4: email: e4@employee.com password: 123</p>
+          <p>Employee 5: email: e5@employee.com password: 123</p>
+
+        </div>
+
+          
       </div>
       <div className="border-2 rounded-xl border-emerald-600 p-20">
         <form
